@@ -8,7 +8,7 @@ public class Ej1 {
         double numero = teclado.nextDouble();
 
         // Mostrar el número con dos decimales usando printf
-        System.out.printf("Número con dos decimales: %.2f%n", numero);
+        System.out.printf("Número con dos decimales: %.2f\n", numero);
 
         teclado.close();
     }
