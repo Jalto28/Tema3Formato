@@ -1,4 +1,4 @@
-public class PatronConColores {
+public class Ej5Array {
     public static void main(String[] args) {
         int filas = 9; // Número de filas
 
