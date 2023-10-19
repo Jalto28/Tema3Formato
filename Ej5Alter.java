@@ -4,7 +4,7 @@ public class Ej5Alter {
 
         // Bucle para cada fila
         for (int i = 1; i <= filas; i++) {
-            //Se imprimen espacios en blanco antes de los números. Se van reduciendo a medida que llegamos a las filas posteriores.
+            // Se imprimen espacios en blanco antes de los números. Se van reduciendo a medida que llegamos a las filas posteriores.
             for (int j = 1; j <= filas - i; j++) {
                 System.out.print(" ");
             }
@@ -13,8 +13,10 @@ public class Ej5Alter {
             for (int k = 1; k <= i; k++) {
                 // Determinar el color en función de la fila
                 String color = "";
-                if (i == 1) {
-                    color = "\u001B[30m"; // Negro
+                if (i == 9) {
+                    color = "\u001B[30m"; // Negro (fila 9)
+                } else if (i == 1) {
+                    color = "\u001B[30m"; // Negro (fila 1)
                 } else if (i == 2) {
                     color = "\u001B[31m"; // Rojo
                 } else if (i == 3) {
